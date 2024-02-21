@@ -1,0 +1,14 @@
+{
+"data":{
+"exchangeId":"kraken",
+"name":"Kraken",
+"rank":"4",
+"percentTotalVolume":"4.515017233026459391000000000000000000",
+"volumeUsd":"319974471.5785830037062525",
+"tradingPairs":"343",
+"socket":false,
+"exchangeUrl":"https://kraken.com",
+"updated":1696851822605
+},
+"timestamp":1696851882083
+}

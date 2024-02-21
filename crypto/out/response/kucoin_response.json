@@ -1,0 +1,14 @@
+{
+"data":{
+"exchangeId":"kucoin",
+"name":"Kucoin",
+"rank":"12",
+"percentTotalVolume":"2.009139262238523372000000000000000000",
+"volumeUsd":"142385563.6829167747361109",
+"tradingPairs":"634",
+"socket":false,
+"exchangeUrl":"https://www.kucoin.io/",
+"updated":1696851788204
+},
+"timestamp":1696851881828
+}

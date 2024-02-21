@@ -1,0 +1,1 @@
+DELETE FROM dbproject.mercado WHERE nome = 'MercadoDasCrypto'

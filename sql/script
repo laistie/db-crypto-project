@@ -1,0 +1,29 @@
+CREATE SCHEMA dbproject;
+
+CREATE TABLE dbproject.mercado (
+	nome VARCHAR(25),
+	rank INT,
+	pares_troca INT,
+	CONSTRAINT pk_mercado PRIMARY KEY (nome)
+);
+
+CREATE TABLE dbproject.cryptomoeda (
+	sigla VARCHAR(4),
+	nome VARCHAR(25),
+	CONSTRAINT pk_cryptomoeda PRIMARY KEY (sigla)
+);
+
+CREATE TABLE dbproject.moedavolatil (
+	data_requisicao DATE,
+	sigla VARCHAR(4),
+	valorusd NUMERIC(7,2),
+	marketcap NUMERIC(15,2),
+	CONSTRAINT pk_moedavolatil PRIMARY KEY (data_requisicao, sigla),
+	CONSTRAINT fk_moedavolatil_crypto FOREIGN KEY (sigla) REFERENCES dbproject.cryptomoeda(sigla)
+);
+
+CREATE TABLE dbproject.venda (
+	mercado VARCHAR(25),
+	moeda CHAR(3),
+	CONSTRAINT pk_venda PRIMARY KEY (mercado, moeda)
+);

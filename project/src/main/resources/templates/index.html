@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script>
+    <script th:src="@{script_mercado.js}"></script>
+    <link href="../static/style.css" th:href="@{style.css}" rel="stylesheet">
+    <title>Trabalho de Coleta e Análise de Dados Abertos</title>
+</head>
+<body class="flexbox">
+<div class="flex nav-container">
+    <h2 class="header">Database Project</h2>
+    <button id="listarMercadosBtn" class="btn">Mercados</button>
+    <button id="listarMoedasBtn" class="btn">Criptomoedas</button>
+    <button id="requestsAPIBtn" class="btn">Requests da API</button>
+</div>
+<div class="main-container">
+    <h1>Trabalho de Coleta e Análise de Dados Abertos</h1>
+    <div id="contentContainer"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+"data":{
+"exchangeId":"binance",
+"name":"Binance",
+"rank":"1",
+"percentTotalVolume":"37.806956806730765050000000000000000000",
+"volumeUsd":"2679338837.8983169970035838",
+"tradingPairs":"829",
+"socket":true,
+"exchangeUrl":"https://www.binance.com/",
+"updated":1696851804895
+},
+"timestamp":1696851881137
+}
